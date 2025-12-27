@@ -19,7 +19,8 @@ print(f(a,b))
 
 
 ## Output
-![Uploading image.png…]()
+
+<img width="461" height="186" alt="image" src="https://github.com/user-attachments/assets/bb243c72-d041-4b88-9110-48fd1841fe5f" />
 
 
 ## Result
