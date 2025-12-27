@@ -44,10 +44,11 @@ for i in range(num_rows):
 
 ## Sample Output
 <img width="201" height="225" alt="image" src="https://github.com/user-attachments/assets/3120af19-6192-44f3-9556-0b20e51e8332" />
-# Result
+
+## Result
 Thus, the program has been successfully executed.
 
 
 
-## Result
+
 
