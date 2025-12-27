@@ -18,18 +18,36 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 4. For each row:
    - Print appropriate spaces to shape the triangle.
    - Compute values using the formula:  
-     \[
-     C(n, k) = \frac{n!}{k!(n-k)!}
-     \]
+     \[C(n, k) = \frac{n!}{k!(n-k)!}\]
 5. Print all rows of Pascal’s Triangle.
 6. End the program.
 
 ---
 
 ## 🧪 Program
-Add Code Here
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+def combination(n, k):
+    return factorial(n) // (factorial(k) * factorial(n - k))
+
+num_rows = int(input("Enter number of rows: "))
+
+for i in range(num_rows):
+    print(' ' * (num_rows - i - 1), end='')
+    for j in range(i + 1):
+        print(combination(i, j), end=' ')
+    print()
+
 
 ## Sample Output
+<img width="201" height="225" alt="image" src="https://github.com/user-attachments/assets/3120af19-6192-44f3-9556-0b20e51e8332" />
+# Result
+Thus, the program has been successfully executed.
+
+
 
 ## Result
 
