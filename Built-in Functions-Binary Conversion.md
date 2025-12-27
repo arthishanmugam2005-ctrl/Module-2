@@ -14,7 +14,8 @@ a=16
 print(bin(a)
 
 ## Output
-![Uploading image.png…]()
+
+<img width="562" height="265" alt="image" src="https://github.com/user-attachments/assets/5e40421e-3c55-46f3-bd25-f99f52a6eb5f" />
 
 
 
